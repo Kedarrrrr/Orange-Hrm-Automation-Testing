@@ -37,7 +37,7 @@ public class Registration extends BasePage {
 	WebElement pwd;
 	
 	@FindBy(xpath="//input[@id='input-confirm']")
-	WebElement cnfpwd;
+	public WebElement cnfpwd;
 	
 	//Radio button
 	@FindBy(xpath="//input[@value='0']")
@@ -53,6 +53,17 @@ public class Registration extends BasePage {
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msg;
 	
+	@FindBy(xpath="//div[@class='text-danger']")
+	WebElement telephone_warning;
+	
+	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]")
+	WebElement Password_msg;
+	
+	@FindBy(xpath="//div[contains(text(),'Password confirmation does not match password!')]")
+	WebElement cnf_warn;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement privacy_warn;
 	
 	//Action methods
 	public String getArltMsg() {
@@ -72,39 +83,44 @@ public class Registration extends BasePage {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
-		
 	}
 	
 	public void setName(String name, String lastname) {
-		
 		firstName.sendKeys(name);
 		lastName.sendKeys(lastname);
-		
 	}
 	
 	public void setEmail(String mail) {
-		
 		eMail.sendKeys(mail);
-		
 	}
 	
 	public void setTelephone(String phone) {
-		
 		telephone.sendKeys(phone);
 	}
 	
 	public void setPassword(String pass) {
-		
 		pwd.sendKeys(pass);
 		cnfpwd.sendKeys(pass);
 	}
 	
 	public void final_Reg() {
-		
 		subs.click();
 		policy.click();
-		cntBtn.click();
-		
+		cntBtn.click();	
+	}
+	
+	public String Telephone_warn() {
+		return telephone_warning.getText();
+	}
+	
+	public String Password_warn() {
+		return Password_msg.getText();
+	}
+	public String Cnf_pwd_msg() {
+		return cnf_warn.getText();
+	}
+	public String Privacy_alert() {
+		return privacy_warn.getText();
 	}
 	
 }

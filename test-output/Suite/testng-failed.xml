@@ -10,7 +10,7 @@
     <classes>
       <class name="testCases.Register_Test">
         <methods>
-          <include name="TC_015_Register_Existing_Credential"/>
+          <include name="TC_18_Password_Mismatched"/>
           <include name="setup"/>
           <include name="Close"/>
         </methods>
