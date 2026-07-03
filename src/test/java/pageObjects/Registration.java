@@ -41,14 +41,14 @@ public class Registration extends BasePage {
 	
 	//Radio button
 	@FindBy(xpath="//input[@value='0']")
-	WebElement subs;
+	public WebElement subs;
 	
 	//checkbox
 	@FindBy(xpath="//input[@name='agree']")
-	WebElement policy;
+	public WebElement policy;
 	
 	@FindBy(xpath="//input[@value='Continue']")
-	WebElement cntBtn;
+	public WebElement cntBtn;
 	
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msg;
@@ -63,7 +63,7 @@ public class Registration extends BasePage {
 	}
 	
 	public String getMsg() {
-		String t=msg.getText();
+		String t=regMsg.getText();
 		return t;
 	}
 	public void register() {

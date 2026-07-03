@@ -29,18 +29,18 @@ public class Register_Test{
 		driver.quit();
 	}
 
-	@Test
-	public void Register_test_case() {
+	@Test(priority=1)
+	public void TC_015_Register_Existing_Credential() {
 		Registration r= new Registration(driver);
 		r.register();
 		//logger.info("Registration Clicked");
-		r.setName("Kulnal", "Yelole");
-		r.setEmail("yleole@gmail.com");
+		r.setName("Jethalal", "Gadha");
+		r.setEmail("gadhaelectronics@gmail.com");
 		r.setTelephone("0900000000");
-		r.setPassword("fjeijais");
+		r.setPassword("tapukepapa");
 		//logger.info("Details filled.");
 		r.final_Reg();
-		Assert.assertEquals(true, r.getMsg());
+		Assert.assertEquals("Warning: E-Mail Address is already registered!", r.getMsg());
 	}
 	
 

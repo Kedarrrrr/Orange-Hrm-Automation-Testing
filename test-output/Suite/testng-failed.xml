@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Search_Test">
+      <class name="testCases.Register_Test">
         <methods>
-          <include name="tear"/>
+          <include name="TC_015_Register_Existing_Credential"/>
           <include name="setup"/>
-          <include name="TC_011_Empty_Search"/>
+          <include name="Close"/>
         </methods>
-      </class> <!-- testCases.Search_Test -->
+      </class> <!-- testCases.Register_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
