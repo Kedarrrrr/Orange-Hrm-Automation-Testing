@@ -33,6 +33,10 @@ public class Review extends BasePage {
 
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 	WebElement msg;
+	
+	 //Warning: Review Text must be between 25 and 1000 characters!
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement empty_box;
 
 	public String review(String R) {
 		search_box.sendKeys("MacBook");
@@ -43,5 +47,10 @@ public class Review extends BasePage {
 		radio_review.click();
 		post_review.click();
 		return msg.getText();
+	}
+	public String empty_review() {
+		radio_review.click();
+		post_review.click();
+		return empty_box.getText();
 	}
 }

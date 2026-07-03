@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T17:34:23 IST" name="Suite" finished-at="2026-07-03T17:34:39 IST" duration-ms="16060">
+  <suite started-at="2026-07-03T20:25:17 IST" name="Suite" finished-at="2026-07-03T20:25:23 IST" duration-ms="5748">
     <groups>
     </groups>
-    <test started-at="2026-07-03T17:34:23 IST" name="Test" finished-at="2026-07-03T17:34:39 IST" duration-ms="16060">
-      <class name="testCases.Review_Test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Review_Test@7770f470]" started-at="2026-07-03T17:34:24 IST" name="setup" finished-at="2026-07-03T17:34:34 IST" duration-ms="9617" status="PASS">
+    <test started-at="2026-07-03T20:25:17 IST" name="Test" finished-at="2026-07-03T20:25:23 IST" duration-ms="5748">
+      <class name="testCases.Gift_Card_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Gift_Card_Test@24313fcc]" started-at="2026-07-03T20:25:17 IST" name="setup" finished-at="2026-07-03T20:25:20 IST" duration-ms="2499" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_022_Post_Review()[pri:1, instance:testCases.Review_Test@7770f470]" started-at="2026-07-03T17:34:34 IST" name="TC_022_Post_Review" finished-at="2026-07-03T17:34:39 IST" duration-ms="5406" status="PASS">
+        <test-method signature="TC_024_Buy_Gift_Card()[pri:1, instance:testCases.Gift_Card_Test@24313fcc]" started-at="2026-07-03T20:25:20 IST" name="TC_024_Buy_Gift_Card" finished-at="2026-07-03T20:25:22 IST" duration-ms="1564" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_022_Post_Review -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:testCases.Review_Test@7770f470]" started-at="2026-07-03T17:34:39 IST" name="tear" finished-at="2026-07-03T17:34:39 IST" duration-ms="422" status="PASS">
+        </test-method> <!-- TC_024_Buy_Gift_Card -->
+        <test-method signature="TC_025_Empty_Credentials()[pri:2, instance:testCases.Gift_Card_Test@24313fcc]" started-at="2026-07-03T20:25:22 IST" name="TC_025_Empty_Credentials" finished-at="2026-07-03T20:25:22 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_025_Empty_Credentials -->
+        <test-method signature="TC_026_Wrong_Mail()[pri:3, instance:testCases.Gift_Card_Test@24313fcc]" started-at="2026-07-03T20:25:22 IST" name="TC_026_Wrong_Mail" finished-at="2026-07-03T20:25:23 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_026_Wrong_Mail -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testCases.Gift_Card_Test@24313fcc]" started-at="2026-07-03T20:25:23 IST" name="tear" finished-at="2026-07-03T20:25:23 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-      </class> <!-- testCases.Review_Test -->
+      </class> <!-- testCases.Gift_Card_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

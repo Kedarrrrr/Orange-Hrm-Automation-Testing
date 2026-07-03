@@ -16,4 +16,10 @@ public class Review_Test extends BaseClass {
 		lp.Log_In();
 		Assert.assertEquals(r.review(p.getProperty("Txt")), "Thank you for your review. It has been submitted to the webmaster for approval.");
 	}
+	
+	@Test(priority=2)
+	public void TC_023_Empty_Review() {
+		Review r = new Review(driver);
+		Assert.assertEquals(r.empty_review(), "Warning: Review Text must be between 25 and 1000 characters!");
+	}
 }

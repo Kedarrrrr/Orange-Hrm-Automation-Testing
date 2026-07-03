@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Register_Test">
+      <class name="testCases.Gift_Card_Test">
         <methods>
-          <include name="TC_18_Password_Mismatched"/>
+          <include name="tear"/>
+          <include name="TC_025_Empty_Credentials"/>
           <include name="setup"/>
-          <include name="Close"/>
         </methods>
-      </class> <!-- testCases.Register_Test -->
+      </class> <!-- testCases.Gift_Card_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
