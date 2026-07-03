@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
+<suite name="Suite" parallel="classes">
 <listeners>
 	<listener class-name="utilities.ExtentReportManager"></listener>
 </listeners>
@@ -9,8 +9,17 @@
     <parameter name="browser" value="chrome"/>
 
     <classes>
+      <class name="testCases.Login_Test"/>
+      <class name="testCases.Register_Test"/>
+      <class name="testCases.Search_Test"/>
+      <class name="testCases.Shopping_Cart_Test"/>
+      <class name="testCases.Wishlist_Test"/>
+      <class name="testCases.Review_Test"/>
+      <class name="testCases.Navigation_Test"/>
       <class name="testCases.Gift_Card_Test"/>
-
+      <class name="testCases.Contact_Test"/>
+      <class name="testCases.Checkout_Test"/>
+      <class name="testCases.UI_Smoke_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
