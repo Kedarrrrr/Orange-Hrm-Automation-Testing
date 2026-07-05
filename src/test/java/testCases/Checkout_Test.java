@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class Checkout_Test extends BaseClass{
 
-	@Test()
+	@Test(groups= {"sanity","smoke","regression"})
 	public void TC_010_CheckOut_Item() {
 		Login_Page lp=new Login_Page(driver);
 		lp.Log_In();

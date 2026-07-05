@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">35 methods, 3 failed,   32 passed</span>
+                    <span class="method-stats">35 methods, 4 failed,   31 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.Login_Test" class="method navigator-link" hash-for-method="TC_003">TC_003</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.Wishlist_Test" class="method navigator-link" hash-for-method="TC_005_add_wish">TC_005_add_wish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Wishlist_Test" class="method navigator-link" hash-for-method="TC_006_remove_wish">TC_006_remove_wish</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,12 +137,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.Wishlist_Test" class="method navigator-link" hash-for-method="TC_005_add_wish">TC_005_add_wish</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.Wishlist_Test" class="method navigator-link" hash-for-method="TC_006_remove_wish">TC_006_remove_wish</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.Login_Test" class="method navigator-link" hash-for-method="TC_003">TC_003</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,17 +152,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Contact_Test" class="method navigator-link" hash-for-method="TC_007(3, invalid)">TC_007(3, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.Contact_Test" class="method navigator-link" hash-for-method="TC_007(fhfhf, invalid)">TC_007(fhfhf, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.Contact_Test" class="method navigator-link" hash-for-method="TC_007(product replace hoga? Nahi toh kya kare?, valid)">TC_007(product replace hoga? Nahi toh kya kare?, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.Contact_Test" class="method navigator-link" hash-for-method="TC_007(3, invalid)">TC_007(3, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -300,23 +300,23 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.Shopping_Cart_Test</span>
+              <span class="class-name">testCases.Wishlist_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_008_add_Item_Cart">
-                  </a> <!-- TC_008_add_Item_Cart -->
-                  <span class="method-name">TC_008_add_Item_Cart</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;fa fa-home&apos;]&quot;}
-  (Session info: chrome=149.0.7827.116)
+                  <a name="TC_005_add_wish">
+                  </a> <!-- TC_005_add_wish -->
+                  <span class="method-name">TC_005_add_wish</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@type=&apos;button&apos;]//i[@class=&apos;fa fa-heart&apos;]&quot;}
+  (Session info: chrome=149.0.7827.201)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f64953be7777280df5fa726a4ee55cfd, findElement {using=xpath, value=//i[@class=&apos;fa fa-home&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.116, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57601}, goog:processID: 35384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57601/devtoo..., se:cdpVersion: 149.0.7827.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f64953be7777280df5fa726a4ee55cfd
+Command: [ec854c83230e396100955ddf7ed5df29, findElement {value=//button[@type=&apos;button&apos;]//i[@class=&apos;fa fa-heart&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50858}, goog:processID: 27696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50858/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec854c83230e396100955ddf7ed5df29
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -330,7 +330,93 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at pageObjects.Wishlist.wishlist_item(Wishlist.java:89)
+	at testCases.Wishlist_Test.TC_005_add_wish(Wishlist_Test.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_006_remove_wish">
+                  </a> <!-- TC_006_remove_wish -->
+                  <span class="method-name">TC_006_remove_wish</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;table-responsive&apos;]&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec854c83230e396100955ddf7ed5df29, findElement {value=//div[@class=&apos;table-responsive&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50858}, goog:processID: 27696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50858/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec854c83230e396100955ddf7ed5df29
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at pageObjects.Wishlist.wish_list(Wishlist.java:96)
+	at testCases.Wishlist_Test.TC_006_remove_wish(Wishlist_Test.java:28)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Shopping_Cart_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_008_add_Item_Cart">
+                  </a> <!-- TC_008_add_Item_Cart -->
+                  <span class="method-name">TC_008_add_Item_Cart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;fa fa-home&apos;]&quot;}
+  (Session info: chrome=149.0.7827.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [735181a2cdf4c8078827a5b09840ead9, findElement {value=//i[@class=&apos;fa fa-home&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60590}, goog:processID: 30672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60590/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 735181a2cdf4c8078827a5b09840ead9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
 	at pageObjects.Shopping_Cart.add_cart(Shopping_Cart.java:35)
 	at testCases.Shopping_Cart_Test.TC_008_add_Item_Cart(Shopping_Cart_Test.java:14)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
@@ -348,14 +434,14 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
                   </a> <!-- TC_009_Remove_Item_Cart -->
                   <span class="method-name">TC_009_Remove_Item_Cart</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;table-responsive&apos;]&quot;}
-  (Session info: chrome=149.0.7827.116)
+  (Session info: chrome=149.0.7827.201)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f64953be7777280df5fa726a4ee55cfd, findElement {using=xpath, value=//div[@class=&apos;table-responsive&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.116, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57601}, goog:processID: 35384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57601/devtoo..., se:cdpVersion: 149.0.7827.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f64953be7777280df5fa726a4ee55cfd
+Command: [735181a2cdf4c8078827a5b09840ead9, findElement {value=//div[@class=&apos;table-responsive&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\kedar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60590}, goog:processID: 30672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60590/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 735181a2cdf4c8078827a5b09840ead9
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -369,7 +455,7 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
 	at pageObjects.Shopping_Cart.remove_item(Shopping_Cart.java:44)
 	at testCases.Shopping_Cart_Test.TC_009_Remove_Item_Cart(Shopping_Cart_Test.java:21)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
@@ -378,30 +464,6 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
 ... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.Login_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_003">
-                  </a> <!-- TC_003 -->
-                  <span class="method-name">TC_003</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found [Warning: No match for E-Mail Address and/or Password.]
-	at testCases.Login_Test.TC_003(Login_Test.java:34)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 19 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -497,28 +559,6 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
                   <a name="TC_019_Privacy_Policy_not_accepted">
                   </a> <!-- TC_019_Privacy_Policy_not_accepted -->
                   <span class="method-name">TC_019_Privacy_Policy_not_accepted</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Wishlist_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_005_add_wish">
-                  </a> <!-- TC_005_add_wish -->
-                  <span class="method-name">TC_005_add_wish</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_006_remove_wish">
-                  </a> <!-- TC_006_remove_wish -->
-                  <span class="method-name">TC_006_remove_wish</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -655,6 +695,14 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="TC_007(3, invalid)">
+                  </a> <!-- TC_007(3, invalid) -->
+                  <span class="method-name">TC_007</span>
+                  <span class="parameters">(3,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="TC_007(fhfhf, invalid)">
                   </a> <!-- TC_007(fhfhf, invalid) -->
                   <span class="method-name">TC_007</span>
@@ -667,29 +715,6 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
                   </a> <!-- TC_007(product replace hoga? Nahi toh kya kare?, valid) -->
                   <span class="method-name">TC_007</span>
                   <span class="parameters">(product replace hoga? Nahi toh kya kare?,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_007(3, invalid)">
-                  </a> <!-- TC_007(3, invalid) -->
-                  <span class="method-name">TC_007</span>
-                  <span class="parameters">(3,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Login_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_002">
-                  </a> <!-- TC_002 -->
-                  <span class="method-name">TC_002</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -712,6 +737,28 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
                   <a name="TC_021_Navigate_Home">
                   </a> <!-- TC_021_Navigate_Home -->
                   <span class="method-name">TC_021_Navigate_Home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002">
+                  </a> <!-- TC_002 -->
+                  <span class="method-name">TC_002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003">
+                  </a> <!-- TC_003 -->
+                  <span class="method-name">TC_003</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -767,6 +814,86 @@ Session ID: f64953be7777280df5fa726a4ee55cfd
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_010_CheckOut_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_027_Open_Cart_logo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_028_Nav_Bar_display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_029_Footer_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_030_Swiper1_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_031_Swiper2_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_032_Search_box_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_033_Search_Button_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_010_CheckOut_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_010_CheckOut_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_027_Open_Cart_logo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_028_Nav_Bar_display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_029_Footer_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_030_Swiper1_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_031_Swiper2_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_032_Search_box_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC_033_Search_Button_Display</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -785,150 +912,150 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(35);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_009_Remove_Item_Cart')
-data.setCell(0, 2, 'testCases.Shopping_Cart_Test')
-data.setCell(0, 3, 10654);
+data.setCell(0, 1, 'TC_005_add_wish')
+data.setCell(0, 2, 'testCases.Wishlist_Test')
+data.setCell(0, 3, 17018);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC_008_add_Item_Cart')
-data.setCell(1, 2, 'testCases.Shopping_Cart_Test')
-data.setCell(1, 3, 10087);
+data.setCell(1, 1, 'TC_010_CheckOut_Item')
+data.setCell(1, 2, 'testCases.Checkout_Test')
+data.setCell(1, 3, 12572);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC_010_CheckOut_Item')
-data.setCell(2, 2, 'testCases.Checkout_Test')
-data.setCell(2, 3, 5724);
+data.setCell(2, 1, 'TC_009_Remove_Item_Cart')
+data.setCell(2, 2, 'testCases.Shopping_Cart_Test')
+data.setCell(2, 3, 10922);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC_005_add_wish')
-data.setCell(3, 2, 'testCases.Wishlist_Test')
-data.setCell(3, 3, 5209);
+data.setCell(3, 1, 'TC_008_add_Item_Cart')
+data.setCell(3, 2, 'testCases.Shopping_Cart_Test')
+data.setCell(3, 3, 10109);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC_007')
-data.setCell(4, 2, 'testCases.Contact_Test')
-data.setCell(4, 3, 5197);
+data.setCell(4, 1, 'TC_006_remove_wish')
+data.setCell(4, 2, 'testCases.Wishlist_Test')
+data.setCell(4, 3, 10055);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC_007')
-data.setCell(5, 2, 'testCases.Contact_Test')
-data.setCell(5, 3, 3837);
+data.setCell(5, 1, 'TC_022_Post_Review')
+data.setCell(5, 2, 'testCases.Review_Test')
+data.setCell(5, 3, 7533);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'TC_007')
 data.setCell(6, 2, 'testCases.Contact_Test')
-data.setCell(6, 3, 3049);
+data.setCell(6, 3, 7286);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC_031_Swiper2_Display')
-data.setCell(7, 2, 'testCases.UI_Smoke_Test')
-data.setCell(7, 3, 2799);
+data.setCell(7, 1, 'TC_007')
+data.setCell(7, 2, 'testCases.Contact_Test')
+data.setCell(7, 3, 7010);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'TC_007')
 data.setCell(8, 2, 'testCases.Contact_Test')
-data.setCell(8, 3, 2784);
+data.setCell(8, 3, 4994);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TC_011_Empty_Search')
-data.setCell(9, 2, 'testCases.Search_Test')
-data.setCell(9, 3, 2622);
+data.setCell(9, 1, 'TC_016_Register_Invalid_Credentials')
+data.setCell(9, 2, 'testCases.Register_Test')
+data.setCell(9, 3, 4806);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TC_015_Register_Existing_Credential')
-data.setCell(10, 2, 'testCases.Register_Test')
-data.setCell(10, 3, 2554);
+data.setCell(10, 1, 'TC_003')
+data.setCell(10, 2, 'testCases.Login_Test')
+data.setCell(10, 3, 4707);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'TC_022_Post_Review')
-data.setCell(11, 2, 'testCases.Review_Test')
-data.setCell(11, 3, 2477);
+data.setCell(11, 1, 'TC_007')
+data.setCell(11, 2, 'testCases.Contact_Test')
+data.setCell(11, 3, 4678);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'TC_030_Swiper1_Display')
-data.setCell(12, 2, 'testCases.UI_Smoke_Test')
-data.setCell(12, 3, 2445);
+data.setCell(12, 1, 'TC_024_Buy_Gift_Card')
+data.setCell(12, 2, 'testCases.Gift_Card_Test')
+data.setCell(12, 3, 4653);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'TC_016_Register_Invalid_Credentials')
-data.setCell(13, 2, 'testCases.Register_Test')
-data.setCell(13, 3, 2317);
+data.setCell(13, 1, 'TC_011_Empty_Search')
+data.setCell(13, 2, 'testCases.Search_Test')
+data.setCell(13, 3, 4274);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'TC_007')
-data.setCell(14, 2, 'testCases.Contact_Test')
-data.setCell(14, 3, 1891);
+data.setCell(14, 1, 'TC_020_Catagory_navigate')
+data.setCell(14, 2, 'testCases.Navigation_Test')
+data.setCell(14, 3, 3958);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'TC_002')
-data.setCell(15, 2, 'testCases.Login_Test')
-data.setCell(15, 3, 1783);
+data.setCell(15, 1, 'TC_007')
+data.setCell(15, 2, 'testCases.Contact_Test')
+data.setCell(15, 3, 3738);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'TC_003')
-data.setCell(16, 2, 'testCases.Login_Test')
-data.setCell(16, 3, 1781);
+data.setCell(16, 1, 'TC_018_Password_Mismatched')
+data.setCell(16, 2, 'testCases.Register_Test')
+data.setCell(16, 3, 3516);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'TC_020_Catagory_navigate')
-data.setCell(17, 2, 'testCases.Navigation_Test')
-data.setCell(17, 3, 1753);
+data.setCell(17, 1, 'TC_019_Privacy_Policy_not_accepted')
+data.setCell(17, 2, 'testCases.Register_Test')
+data.setCell(17, 3, 3221);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'TC_024_Buy_Gift_Card')
-data.setCell(18, 2, 'testCases.Gift_Card_Test')
-data.setCell(18, 3, 1696);
+data.setCell(18, 1, 'TC_015_Register_Existing_Credential')
+data.setCell(18, 2, 'testCases.Register_Test')
+data.setCell(18, 3, 3188);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'TC_017_Empty_Credentials')
-data.setCell(19, 2, 'testCases.Register_Test')
-data.setCell(19, 3, 1305);
+data.setCell(19, 1, 'TC_030_Swiper1_Display')
+data.setCell(19, 2, 'testCases.UI_Smoke_Test')
+data.setCell(19, 3, 2959);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'TC_019_Privacy_Policy_not_accepted')
-data.setCell(20, 2, 'testCases.Register_Test')
-data.setCell(20, 3, 1221);
+data.setCell(20, 1, 'TC_031_Swiper2_Display')
+data.setCell(20, 2, 'testCases.UI_Smoke_Test')
+data.setCell(20, 3, 2811);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'TC_018_Password_Mismatched')
+data.setCell(21, 1, 'TC_017_Empty_Credentials')
 data.setCell(21, 2, 'testCases.Register_Test')
-data.setCell(21, 3, 1175);
+data.setCell(21, 3, 2534);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'TC_013_Partial_name')
-data.setCell(22, 2, 'testCases.Search_Test')
-data.setCell(22, 3, 1119);
+data.setCell(22, 1, 'TC_002')
+data.setCell(22, 2, 'testCases.Login_Test')
+data.setCell(22, 3, 2240);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'TC_014_Non_Existing_Product')
-data.setCell(23, 2, 'testCases.Search_Test')
-data.setCell(23, 3, 1062);
+data.setCell(23, 1, 'TC_026_Wrong_Mail')
+data.setCell(23, 2, 'testCases.Gift_Card_Test')
+data.setCell(23, 3, 1475);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'TC_012_Search_Special_Char')
+data.setCell(24, 1, 'TC_013_Partial_name')
 data.setCell(24, 2, 'testCases.Search_Test')
-data.setCell(24, 3, 905);
+data.setCell(24, 3, 1467);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'TC_026_Wrong_Mail')
+data.setCell(25, 1, 'TC_025_Empty_Credentials')
 data.setCell(25, 2, 'testCases.Gift_Card_Test')
-data.setCell(25, 3, 710);
+data.setCell(25, 3, 1400);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'TC_021_Navigate_Home')
-data.setCell(26, 2, 'testCases.Navigation_Test')
-data.setCell(26, 3, 672);
+data.setCell(26, 1, 'TC_014_Non_Existing_Product')
+data.setCell(26, 2, 'testCases.Search_Test')
+data.setCell(26, 3, 1329);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'TC_025_Empty_Credentials')
-data.setCell(27, 2, 'testCases.Gift_Card_Test')
-data.setCell(27, 3, 609);
+data.setCell(27, 1, 'TC_012_Search_Special_Char')
+data.setCell(27, 2, 'testCases.Search_Test')
+data.setCell(27, 3, 1312);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'TC_006_remove_wish')
-data.setCell(28, 2, 'testCases.Wishlist_Test')
-data.setCell(28, 3, 547);
+data.setCell(28, 1, 'TC_021_Navigate_Home')
+data.setCell(28, 2, 'testCases.Navigation_Test')
+data.setCell(28, 3, 981);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'TC_023_Empty_Review')
 data.setCell(29, 2, 'testCases.Review_Test')
-data.setCell(29, 3, 183);
+data.setCell(29, 3, 439);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'TC_027_Open_Cart_logo')
+data.setCell(30, 1, 'TC_028_Nav_Bar_display')
 data.setCell(30, 2, 'testCases.UI_Smoke_Test')
-data.setCell(30, 3, 32);
+data.setCell(30, 3, 58);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'TC_029_Footer_Display')
+data.setCell(31, 1, 'TC_027_Open_Cart_logo')
 data.setCell(31, 2, 'testCases.UI_Smoke_Test')
-data.setCell(31, 3, 28);
+data.setCell(31, 3, 50);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'TC_028_Nav_Bar_display')
+data.setCell(32, 1, 'TC_029_Footer_Display')
 data.setCell(32, 2, 'testCases.UI_Smoke_Test')
-data.setCell(32, 3, 19);
+data.setCell(32, 3, 42);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'TC_032_Search_box_Display')
+data.setCell(33, 1, 'TC_033_Search_Button_Display')
 data.setCell(33, 2, 'testCases.UI_Smoke_Test')
-data.setCell(33, 3, 13);
+data.setCell(33, 3, 32);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'TC_033_Search_Button_Display')
+data.setCell(34, 1, 'TC_032_Search_box_Display')
 data.setCell(34, 2, 'testCases.UI_Smoke_Test')
-data.setCell(34, 3, 12);
+data.setCell(34, 3, 31);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -954,21 +1081,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Shopping_Cart_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.Login_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -978,27 +1091,42 @@ return data;
               <div class="chronological-class-name">testCases.Checkout_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Shopping_Cart_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Login_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TC_003</span>
-                <span class="method-start">4100 ms</span>
+                <span class="method-start">35646 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.Checkout_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC_005_add_wish</span>
-                <span class="method-start">4126 ms</span>
+                <span class="method-name">TC_010_CheckOut_Item</span>
+                <span class="method-start">35720 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -1007,121 +1135,42 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC_008_add_Item_Cart</span>
-                <span class="method-start">4251 ms</span>
+                <span class="method-start">35728 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Checkout_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC_010_CheckOut_Item</span>
-                <span class="method-start">4263 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Login_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_002</span>
-                <span class="method-start">5909 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_005_add_wish</span>
+                <span class="method-start">35765 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_007(product replace hoga? Nahi toh kya kare?, valid)</span>
-                <span class="method-start">6586 ms</span>
+                <span class="method-start">39606 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Login_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_002</span>
+                <span class="method-start">40390 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">7694 ms</span>
+                <span class="method-start">42633 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">7999 ms</span>
+                <span class="method-start">43192 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_006_remove_wish</span>
-                <span class="method-start">9340 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">9888 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Checkout_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">9989 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">10135 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_011_Empty_Search</span>
-                <span class="method-start">10199 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">10228 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_007(l, invalid)</span>
-                <span class="method-start">11789 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_015_Register_Existing_Credential</span>
-                <span class="method-start">12279 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_020_Catagory_navigate</span>
-                <span class="method-start">12544 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_012_Search_Special_Char</span>
-                <span class="method-start">12821 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC_013_Partial_name</span>
-                <span class="method-start">13729 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_021_Navigate_Home</span>
-                <span class="method-start">14299 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Shopping_Cart_Test</div> <!-- chronological-class-name -->
@@ -1129,200 +1178,292 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC_009_Remove_Item_Cart</span>
-                <span class="method-start">14350 ms</span>
+                <span class="method-start">45845 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">TC_007(l, invalid)</span>
+                <span class="method-start">46895 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_011_Empty_Search</span>
+                <span class="method-start">47509 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Checkout_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">48303 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48962 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">TC_007(fhfhf, invalid)</span>
-                <span class="method-start">14574 ms</span>
+                <span class="method-start">51575 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_012_Search_Special_Char</span>
+                <span class="method-start">51787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_006_remove_wish</span>
+                <span class="method-start">52787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_013_Partial_name</span>
+                <span class="method-start">53101 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC_016_Register_Invalid_Credentials</span>
-                <span class="method-start">14835 ms</span>
+                <span class="method-name">TC_015_Register_Existing_Credential</span>
+                <span class="method-start">53209 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_014_Non_Existing_Product</span>
-                <span class="method-start">14851 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">14973 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">15252 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">15913 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Gift_Card_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">16305 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_017_Empty_Credentials</span>
-                <span class="method-start">17155 ms</span>
+                <span class="method-start">54571 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_007(3, invalid)</span>
-                <span class="method-start">17625 ms</span>
+                <span class="method-start">55315 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Search_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">55902 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">56293 ms</span>
+              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC_018_Password_Mismatched</span>
-                <span class="method-start">18461 ms</span>
+                <span class="method-name">TC_016_Register_Invalid_Credentials</span>
+                <span class="method-start">56399 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Shopping_Cart_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">56770 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">57284 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_020_Catagory_navigate</span>
+                <span class="method-start">59817 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_007(3.33333E+11, valid)</span>
-                <span class="method-start">19516 ms</span>
+                <span class="method-start">60311 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC_019_Privacy_Policy_not_accepted</span>
-                <span class="method-start">19638 ms</span>
+                <span class="method-name">TC_017_Empty_Credentials</span>
+                <span class="method-start">61205 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Close</span>
-                <span class="method-start">20861 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_022_Post_Review</span>
-                <span class="method-start">21070 ms</span>
+                <span class="method-start">62209 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Wishlist_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">62845 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Gift_Card_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">63515 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_018_Password_Mismatched</span>
+                <span class="method-start">63743 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Navigation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_021_Navigate_Home</span>
+                <span class="method-start">63779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">64762 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.UI_Smoke_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">21102 ms</span>
+                <span class="method-start">65338 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_019_Privacy_Policy_not_accepted</span>
+                <span class="method-start">67286 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">23354 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC_023_Empty_Review</span>
-                <span class="method-start">23548 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">23731 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.Shopping_Cart_Test</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tear</span>
-                <span class="method-start">25006 ms</span>
+                <span class="method-start">67324 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Gift_Card_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_024_Buy_Gift_Card</span>
-                <span class="method-start">25979 ms</span>
+                <span class="method-start">67695 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.UI_Smoke_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_027_Open_Cart_logo</span>
-                <span class="method-start">26086 ms</span>
+                <span class="method-start">69597 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_028_Nav_Bar_display</span>
-                <span class="method-start">26120 ms</span>
+                <span class="method-start">69649 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_029_Footer_Display</span>
-                <span class="method-start">26143 ms</span>
+                <span class="method-start">69710 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_023_Empty_Review</span>
+                <span class="method-start">69746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UI_Smoke_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_030_Swiper1_Display</span>
-                <span class="method-start">26172 ms</span>
+                <span class="method-start">69755 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Review_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">70186 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Register_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">Close</span>
+                <span class="method-start">70508 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Gift_Card_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_025_Empty_Credentials</span>
-                <span class="method-start">27678 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC_026_Wrong_Mail</span>
-                <span class="method-start">28287 ms</span>
+                <span class="method-start">72351 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.UI_Smoke_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_031_Swiper2_Display</span>
-                <span class="method-start">28620 ms</span>
+                <span class="method-start">72717 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Gift_Card_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_026_Wrong_Mail</span>
+                <span class="method-start">73751 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">29001 ms</span>
+                <span class="method-start">75235 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.UI_Smoke_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">TC_032_Search_box_Display</span>
-                <span class="method-start">31426 ms</span>
+                <span class="method-start">75528 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_033_Search_Button_Display</span>
-                <span class="method-start">31442 ms</span>
+                <span class="method-start">75564 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">31457 ms</span>
+                <span class="method-start">75596 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
