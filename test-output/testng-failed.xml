@@ -8,22 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Wishlist_Test">
+      <class name="testCases.Contact_Test">
         <methods>
           <include name="tear"/>
-          <include name="TC_006_remove_wish"/>
           <include name="setup"/>
-          <include name="TC_005_add_wish"/>
+          <include name="TC_007" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testCases.Wishlist_Test -->
-      <class name="testCases.Shopping_Cart_Test">
-        <methods>
-          <include name="tear"/>
-          <include name="TC_008_add_Item_Cart"/>
-          <include name="setup"/>
-          <include name="TC_009_Remove_Item_Cart"/>
-        </methods>
-      </class> <!-- testCases.Shopping_Cart_Test -->
+      </class> <!-- testCases.Contact_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

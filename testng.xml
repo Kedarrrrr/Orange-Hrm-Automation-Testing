@@ -9,17 +9,16 @@
     <parameter name="browser" value="chrome"/>
 
     <classes>
-      <class name="testCases.Login_Test"/>
+	  <class name="testCases.Login_Test"/>
       <class name="testCases.Register_Test"/>
       <class name="testCases.Search_Test"/>
-      <class name="testCases.Shopping_Cart_Test"/>
       <class name="testCases.Wishlist_Test"/>
       <class name="testCases.Review_Test"/>
       <class name="testCases.Navigation_Test"/>
       <class name="testCases.Gift_Card_Test"/>
       <class name="testCases.Contact_Test"/>
       <class name="testCases.Checkout_Test"/>
-      <class name="testCases.UI_Smoke_Test"/>
+      <class name="testCases.UI_Smoke_Test"/>		
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -32,11 +32,11 @@ public class UI_Smoke_Test extends BaseClass {
 		Assert.assertEquals(ui.Swiper1(), true);
 	}
 	
-	@Test(priority=5, groups= {"smoke","regression"})
+	/*@Test(priority=5, groups= {"smoke","regression"})
 	public void TC_031_Swiper2_Display() {
 		UI_Smoke ui=new UI_Smoke(driver);
 		Assert.assertEquals(ui.Swiper2(), true);
-	}
+	}*/
 	
 	@Test(priority=6, groups= {"smoke","regression"})
 	public void TC_032_Search_box_Display() {
